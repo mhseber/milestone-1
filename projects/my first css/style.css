@@ -1,0 +1,14 @@
+.blogs {
+    margin: 40px;
+    border: 10px solid red;
+    box-shadow: 10px 10px 20px blueviolet;
+    border-radius: 50px;
+    background-color: beige;
+    color: darkslategray;
+}
+
+.seber {
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+}

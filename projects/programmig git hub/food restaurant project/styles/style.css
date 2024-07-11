@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+#hero {
+    height: 615px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .hero-content {
+    width: 685px;
+}
+
+#hero .hero-content .sub {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+
+}
+
+#hero .hero-content .tittle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#hero .hero-content .descripshion {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+#card-box {
+    width: 884px;
+    margin: 100px auto;
+}
+
+#card-box .tittle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .sub {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box {
+    width: 250px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    background-color: aqua;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.food img {
+    width: 500px;
+    padding-right: 20px;
+
+}
+
+.food {
+    justify-content: center;
+    display: flex;
+
+}
+
+.news h1 {
+    /* We always make sure to provide you with good food */
+    position: static;
+    width: 605px;
+    height: 128px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.news p {
+    /* Frame 17 */
+    position: static;
+    width: 805px;
+    height: 181px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-top: 100px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+}
+
+.button button {
+    background: rgb(82, 195, 3);
+    padding: 30px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    font-family: Work Sans;
+    cursor: pointer;
+    color: black;
+    font-weight: 600px;
+
+
+
+}
